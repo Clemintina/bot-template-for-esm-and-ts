@@ -4,3 +4,4 @@ A basic bot template for writing discord bots in TypeScript. Although this was o
 
 Simply ``git clone https://github.com/Clemintina/bot-template-for-esm-and-ts/`` and create your bot!
 
+If you're using Bun. Create a ``.env.development`` and ``.env.production`` file instead of ``.env``.

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "target": "ESNext",
+
+    "moduleResolution": "node16",
+    "moduleDetection": "force",
+
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "composite": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node","bun-types"]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "tests",
+    "node_modules"
+  ],
+  "ts-node": {
+    "esm": true,
+    "experimentalResolver": true
+  }
+}
